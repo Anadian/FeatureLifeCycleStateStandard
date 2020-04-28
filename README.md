@@ -1,8 +1,8 @@
 # Feature Life Cycle State Standard
-v0.0.1
+v0.0.2
 ## Preamble
 This is a list of keywords, and their associated meaning, for describing the development and maintenance status of functions and features in public APIs. 
-I created this "standard" because, as far as I'm aware, no existing standard has been created for such things: believe me. This list is based of common terms I've often seen used in existing documentation to describe status of new, experimental, stable, and deprecated features from conception to removal. The use of key words "MUST", "SHOULD" and "MAY" in this standard are in accordance with their definitions in [RFC  2119](https://tools.ietf.org/html/rfc2119)
+I created this "standard" because, as far as I'm aware, no existing standard has been created for such things. This list is based of common terms I've often seen used in existing documentation to describe status of new, experimental, stable, and deprecated features from conception to removal. The use of key words "MUST", "SHOULD" and "MAY" in this standard are in accordance with their definitions in [RFC  2119](https://tools.ietf.org/html/rfc2119)
 ## Lifecycle-State Keywords
 1. **Planning**: This proposed feature exists in a purely conceptually state and is merely being consider for future implementation; use this keyword to denote features you plan on adding eventually or are currently hearing suggestions or concerns on before reserving any names for it in your code or API.
 2. **Reserved**: This feature/function is named and reserved for future implementation but without any working implementation at the present time.
@@ -42,5 +42,5 @@ Status:
 ```
 would indicate the function was both planned and reserved between the release of v0.0.1 and v0.0.2 and was implemented to the point of being runnable between the release of v0.0.2 and v0.0.3.
 ## Contributing
-Finally, this draft is still being updated and all feedback, suggestions, amendments, and formalisations are appreciated. My goal is to have this be a useful reference point for writing any sort of technical documentation so, if you don't find this document useful, please tell me why, through a [GitHub issue](https://github.com/Anadian/FeatureLifeCycleStateStandard/issues), or make some changes, via a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests), with what you think would improve it. 
+Finally, this draft is still being updated and all feedback, suggestions, amendments, and formalisations are appreciated. My goal is to have this be a useful reference point for writing any sort of technical documentation so, if you don't find this document useful, please tell me why, through a [GitHub issue](https://github.com/Anadian/FeatureLifeCycleStateStandard/issues), or make some changes, via a [Pull Request](https://github.com/Anadian/FeatureLifeCycleStateStandard/pulls), with what you think would improve it. 
 
