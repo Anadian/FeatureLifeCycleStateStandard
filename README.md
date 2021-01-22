@@ -1,5 +1,5 @@
 # Feature Life Cycle State Standard
-v0.0.2
+v0.0.3
 ## Preamble
 This is a list of keywords, and their associated meaning, for describing the development and maintenance status of functions and features in public APIs. 
 I created this "standard" because, as far as I'm aware, no existing standard has been created for such things. This list is based of common terms I've often seen used in existing documentation to describe status of new, experimental, stable, and deprecated features from conception to removal. The use of key words "MUST", "SHOULD" and "MAY" in this standard are in accordance with their definitions in [RFC  2119](https://tools.ietf.org/html/rfc2119)
@@ -7,7 +7,7 @@ I created this "standard" because, as far as I'm aware, no existing standard has
 1. **Planning**: This proposed feature exists in a purely conceptually state and is merely being consider for future implementation; use this keyword to denote features you plan on adding eventually or are currently hearing suggestions or concerns on before reserving any names for it in your code or API.
 2. **Reserved**: This feature/function is named and reserved for future implementation but without any working implementation at the present time.
 3. **WIP**: Work in Progress: work has begone to implement this feature but is not in a shippable, not even for a developmental build, or tested state.
-4. **Experimental**: The feature/function is implemented, in theory, but is still being tested and debugged and, as such, has a decent causing of causing unexpected errors.
+4. **Experimental**: The feature/function is implemented, in theory, but is still being tested and debugged and, as such, has a decent chance of causing unexpected errors.
 5. **Stable**: The feature/function is implemented, tested, and fully documented; developers SHOULD be able to use this feature with confidence that it will work as intended and not be changed without warning.
 6. **Deprecated**: This feature is being "sunset" but SHOULD still work as originally intended. This feature is no longer recommended for new developers; it may be made Obsolete or continue to exist purely for legacy support and backwards compatibility. Documentation SHOULD be updated to direct developers to the API or function they should use instead.
 7. **Obsolete**: Denotes that a feature will be **removed** in a coming update; code depending on this must be changed else breaking and unsupported behaviour is expected. The function MAY also be altered to warn that it is obsolete and should not be relied upon anymore. The feature/functions newly denoted with this keyword SHOULD always have had **at least** one update in which they were tagged as Deprecated.
